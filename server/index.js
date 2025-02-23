@@ -9,11 +9,11 @@ import connectDB from "./config/conn.js";
 import userRouter from "./routes/user.route.js";
 import CategoryRouter from "./routes/category.route.js";
 import UploadRouter from "./routes/upload.route.js";
-import SubCategoryRouter from "./routes/subcategory.route.js";
 import ProductRouter from "./routes/product.route.js";
 import CartRouter from "./routes/cart.route.js";
 import AddressRouter from "./routes/address.route.js";
 import OrderRouter from "./routes/order.route.js";
+import SubCategoryRouter from "./routes/subcategory.route.js";
 
 
 const app = express();
