@@ -29,7 +29,7 @@ app.use(helmet({
     crossOriginResourcePolicy: false
 }))
 
-const PORT = process.env.PORT || 8000;
+const PORT =  process.env.PORT || 8000
 
 app.get("/", (request, response) => {
     response.json({
