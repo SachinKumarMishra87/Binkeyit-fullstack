@@ -1,4 +1,3 @@
-import express, { request, response } from "express"
 import cors from "cors"
 import dotenv from "dotenv"
 dotenv.config()
@@ -21,7 +20,6 @@ app.use(cors({
     credentials: true,
     origin: process.env.FRONTEND_URL
 }))
-console.log("Allowed Frontend URL:", process.env.FRONTEND_URL);
 
 app.use(express.json())
 app.use(cookieParser())
