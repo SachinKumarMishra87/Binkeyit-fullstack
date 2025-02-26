@@ -19,7 +19,8 @@ import SubCategoryRouter from "./routes/subCategory.route.js"
 const app = express();
 app.use(cors({
     credentials: true,
-    origin: process.env.FRONTEND_URL
+    origin: process.env.FRONTEND_URL,
+    methods: ["GET", "POST", "PUT", "DELETE"]
 }))
 
 app.use(express.json())
