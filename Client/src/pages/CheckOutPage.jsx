@@ -80,11 +80,12 @@ const CheckOutPage = () => {
       if (fetchOrder) {
         fetchOrder()
       }
-      navigate('/success', {
-        state: {
-          text: "Order"
-        }
-      })
+      // navigate('/success', {
+      //   state: {
+      //     text: "Order"
+      //   }
+      // })
+    
 
     } catch (error) {
       AxiosToastError(error)
